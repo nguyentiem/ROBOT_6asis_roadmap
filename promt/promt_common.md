@@ -23,6 +23,9 @@ KỸ THUẬT
 - Trước khi dùng KaTeX/highlight.js, kiểm tra URL CSS và JS trên cdnjs trả HTTP 200; không dùng phiên bản chỉ đoán theo số phát hành. KaTeX `0.16.22` trả 404; `0.18.0` đã được xác minh ngày 2026-10-12.
 - Mở file HTML bằng `file://` trong trình duyệt thật để kiểm tra công thức: KaTeX đã tải, tất cả phần tử công thức đều được render, không có `.katex-error`, và không có mã LaTeX thô trên trang. Kiểm tra trực quan công thức dài/ma trận và không có lỗi JavaScript trong console.
 - Nếu KaTeX không tải được, nội dung dự phòng phải dễ đọc. Khi lưu LaTeX trong thuộc tính HTML, escape đúng các ký tự đặc biệt như `&`.
+- Trước khi coi bài là hoàn chỉnh, đối chiếu từng ý "Cần nắm" và "Bài tập" trong `roadmap.md` với nội dung thực tế. Một đề mục xuất hiện trong danh sách chưa đủ: phải có phần giải thích nguyên nhân, công thức có định nghĩa ký hiệu/đơn vị, ít nhất một ví dụ số được giải từng bước và cách tự kiểm chứng bằng code hoặc hình.
+- Trắc nghiệm phải hỏi kiến thức riêng của bài, có phương án nhiễu hợp lý và giải thích cho đáp án. Không dùng cùng một câu hỏi chung kiểu "nhận định nào phù hợp" lặp lại năm lần.
+- Code mẫu phải thực hiện đúng bài tập đã nêu hoặc ghi rõ phần nào chỉ là mã minh họa; không gọi pseudocode là code đầy đủ. Dữ liệu và quy ước trong lời giải, hình và code phải trùng nhau.
 
 CÁCH TRẢ LỜI
 - Trả TOÀN BỘ code trong MỘT khối code duy nhất, không cắt bớt, không viết "phần còn lại tương tự".
